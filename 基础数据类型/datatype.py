@@ -114,3 +114,15 @@ bytes = str.encode("utf-8") #将字符串转换为字节串  b'hello'
 str1 = bytes.decode("utf-8") #将字节串转换为字符串  hello 
 print(bytes)
     
+#运算符   算术运算符  比较运算符  逻辑运算符  赋值运算符  位运算符  成员运算符  身份运算符
+#算术运算符   +  -  *  /  //  %  ** 
+#比较运算符   ==  !=  >  <  >=  <=
+#逻辑运算符   and  or  not
+#赋值运算符   =  +=  -=  *=  /=  //=  %=  **=
+#位运算符    &  |  ^  ~  <<  >>
+
+
+#文件操作   open()  close()  read()  write()  readline()  readlines()  seek()  tell()  flush()  with
+#打开文件   open()函数
+file = open("test.txt", "r")    #打开文件
+print(file.read())  #读取文件中的所有内容
