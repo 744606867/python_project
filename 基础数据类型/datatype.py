@@ -43,7 +43,7 @@ print(type(str.format("name").split("_"))) #<class 'list'>
 print(str.format("name").split("_"))    #['hello', 'world', 'name']
 print(str.find("world"))    #6
 print("world" in str)   #True
-print(str.replace("world", "python"))   #hello_python_
+print(str.replace("world", "python"))   #hello_python_             111
 
 
     
